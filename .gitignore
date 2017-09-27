@@ -1,6 +1,8 @@
 node_modules
 *.log
 .idea
+.out
+.scripts
+.storybook
 dist
 coverage
-lib
