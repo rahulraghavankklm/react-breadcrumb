@@ -1,10 +1,10 @@
 {
-  "name": "react-breadcrumb",
-  "version": "1.0.0",
+  "name": "@samyukti/react-breadcrumb",
+  "version": "1.0.1",
   "description": "React Breadcrumb Component",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amadormf/react-breadcrumb"
+    "url": "https://github.com/rahulraghavankklm/react-breadcrumb.git"
   },
   "license": "MIT",
   "scripts": {
@@ -61,6 +61,7 @@
     "phantomjs-polyfill": "0.0.2",
     "phantomjs-prebuilt": "^2.1.7",
     "pre-commit": "^1.1.2",
+    "prop-types": "^15.6.0",
     "raw-loader": "^0.5.1",
     "react": "^15.0.0",
     "react-addons-test-utils": "^15.0.0",
@@ -73,7 +74,7 @@
     "lib"
   ],
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0"
+    "react": "^0.14.0 || ^15.0.0 || ^16.0.0"
   },
   "dependencies": {
     "babel-runtime": "^6.5.0",
@@ -81,7 +82,7 @@
   },
   "main": "lib/index.js",
   "engines": {
-    "npm": "^3.0.0"
+    "npm": "^4.0.0"
   },
   "pre-commit": {
     "run": "lint, test"
